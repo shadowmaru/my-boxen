@@ -36,3 +36,18 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "mysql"
+github "phantomjs"
+github "hipchat"
+github "iterm2"
+github "sublime_text_2"
+github "chrome"
+github "ghostscript"
+github "wkhtmltopdf"
+github "screen"
+github "memcached"
+github "imagemagick"
+github "textexpander"
+github "things"
+github "virtualbox"
