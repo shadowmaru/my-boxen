@@ -57,6 +57,9 @@ node default {
   include git
   include hub
   include nginx
+  include hipchat
+  include chrome
+  include screen
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -70,6 +73,7 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
+  include ruby::ree_1_8_7_2012_02
   include ruby::1_8_7
   include ruby::1_9_3
   include ruby::2_0_0
