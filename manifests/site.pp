@@ -57,6 +57,9 @@ node default {
   include git
   include hub
   include nginx
+  include hipchat
+  include chrome
+  include screen
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -70,8 +73,8 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
+  include ruby::ree_1_8_7_2012_02
   include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 
@@ -80,11 +83,11 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+  file { "${boxen::config::srcdir}/my-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
