@@ -3,8 +3,9 @@ class people::shadowmaru {
 	include chrome
 	include firefox
 	include iterm2::stable
-	include textexpander
 	include onepassword
+  include projects::smartsystem
+  include projects::backup_scripts
 
   $home     = "/Users/shadow"
   $my       = "${home}/my"

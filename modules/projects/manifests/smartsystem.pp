@@ -1,19 +1,17 @@
 class projects::smartsystem {
-  include icu4c
   include phantomjs
   include ghostscript
-  include wkhtmltopdf
   include memcached
 
   package { 'imagemagick': }
 
   boxen::project { 'smartsystem':
-    dotenv        => true,
+    dotenv        => false,
     elasticsearch => false,
     mysql         => ['smart_development', 'smart_test'],
     nginx         => true,
     redis         => true,
-    ruby          => '1.9.3-p448',
+    ruby          => '2.0.0',
     source        => 'bioritmo/Smart-System'
   }
 }
