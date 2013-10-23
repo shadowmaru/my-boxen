@@ -4,6 +4,7 @@ class people::shadowmaru {
 	include firefox
 	include iterm2::stable
 	include onepassword
+  include projects::audax
   include projects::smartsystem
   include projects::backup_scripts
 

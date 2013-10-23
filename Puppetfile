@@ -42,6 +42,8 @@ github "dropbox",			"1.1.1"
 github "firefox",			"1.1.3"
 github "heroku",			"2.0.0"
 github "mysql",         	"1.1.5"
+github "sysctl",            "1.0.0" # postgresql dependency
+github "postgresql",		"2.0.1"
 github "phantomjs",			"2.0.2"
 github "redis",				"1.0.0"
 github "hipchat",			"1.0.8"
