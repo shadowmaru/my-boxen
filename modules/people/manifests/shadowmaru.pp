@@ -5,6 +5,7 @@ class people::shadowmaru {
 	include iterm2::stable
 	include onepassword
   include projects::audax
+  include projects::fin
   include projects::smartsystem
   include projects::backup_scripts
 
