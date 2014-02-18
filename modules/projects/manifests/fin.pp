@@ -6,7 +6,7 @@ class projects::fin {
     mysql         => ['fin_development', 'fin_test'],
     nginx         => true,
     redis         => false,
-    ruby          => '1.9.3-p448',
+    ruby          => 'ree-1.8.7-2012.02',
     source        => 'bioritmo/fin'
   }
 }

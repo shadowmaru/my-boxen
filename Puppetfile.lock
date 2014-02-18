@@ -91,7 +91,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.1.5)
+    mysql (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -208,7 +208,7 @@ DEPENDENCIES
   iterm2 (= 1.0.3)
   libtool (= 1.0.0)
   memcached (= 1.2.0)
-  mysql (= 1.1.5)
+  mysql (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
   onepassword (= 1.0.2)
