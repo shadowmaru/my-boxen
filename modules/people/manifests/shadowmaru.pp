@@ -5,9 +5,6 @@ class people::shadowmaru {
 	include iterm2::stable
 	include onepassword
   include projects::audax
-  include projects::fin
-  include projects::smartsystem
-  include projects::backup_scripts
 
   $home     = "/Users/shadow"
   $my       = "${home}/my"
@@ -21,4 +18,10 @@ class people::shadowmaru {
     source  => 'git@github.com:shadowmaru/dotfiles',
     require => File[$my]
   }
+
+  # NodeJS
+  class { 'nodejs::global': version => 'v0.10.13' }
+  nodejs::module { 'bower': node_version => 'v0.10.13' }
+  nodejs::module { 'grunt-cli': node_version => 'v0.10.13' }
+  nodejs::module { 'karma': node_version => 'v0.10.13' }
 }
