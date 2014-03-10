@@ -7,12 +7,19 @@ class people::shadowmaru {
   include projects::audax
   include projects::topster_admin
 
-  $home     = "/Users/shadow"
-  $my       = "${home}/my"
-  $dotfiles = "${home}/dotfiles"
+  $home         = "/Users/shadow"
+  $my           = "${home}/my"
+  $dotfiles     = "${home}/dotfiles"
+  $topster      = "${home}/topster"
+  $topster_web  = "${topster}/web"
+  $topster_vm   = "${topster}/vm"
 
   file { $my:
     ensure  => directory
+  }
+
+  file { [ $topster, $topster_web, $topster_vm]:
+    ensure => directory
   }
 
   repository { $dotfiles:
