@@ -34,4 +34,6 @@ class people::shadowmaru {
   nodejs::module { 'karma': node_version => 'v0.10.13' }
   nodejs::module { 'yo': node_version => 'v0.10.13' }
   nodejs::module { 'generator-angular': node_version => 'v0.10.13' }
+  nodejs::module { 'jshint': node_version => 'v0.10.13' }
+  nodejs::module { 'csslint': node_version => 'v0.10.13' }
 }
