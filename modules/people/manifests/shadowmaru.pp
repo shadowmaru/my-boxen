@@ -3,7 +3,6 @@ class people::shadowmaru {
 	include chrome
 	include firefox
 	include iterm2::stable
-	include onepassword
   include projects::audax
   include projects::topster_admin
 
