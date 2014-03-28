@@ -164,9 +164,14 @@ GITHUBTARBALL
     things (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.6)
+    virtualbox (1.0.11)
 
 GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
@@ -224,7 +229,8 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   things (= 1.0.1)
-  virtualbox (= 1.0.6)
+  vagrant (= 3.0.6)
+  virtualbox (= 1.0.11)
   wkhtmltopdf (= 1.0.0)
   xquartz (= 1.1.0)
 
