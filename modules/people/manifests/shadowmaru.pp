@@ -5,6 +5,7 @@ class people::shadowmaru {
 	include iterm2::stable
   include projects::audax
   include projects::topster_admin
+  include projects::topster_api
 
   $home         = "/Users/shadow"
   $my           = "${home}/my"
@@ -30,7 +31,7 @@ class people::shadowmaru {
   class { 'nodejs::global': version => 'v0.10.13' }
   nodejs::module { 'bower': node_version => 'v0.10.13' }
   nodejs::module { 'grunt-cli': node_version => 'v0.10.13' }
-  nodejs::module { 'karma': node_version => 'v0.10.13' }
+  nodejs::module { 'karma-cli': node_version => 'v0.10.13' }
   nodejs::module { 'yo': node_version => 'v0.10.13' }
   nodejs::module { 'generator-angular': node_version => 'v0.10.13' }
   nodejs::module { 'jshint': node_version => 'v0.10.13' }
