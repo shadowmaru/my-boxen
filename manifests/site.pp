@@ -57,7 +57,6 @@ node default {
   include git
   include hub
   include nginx
-  include hipchat
   include chrome
   include screen
 
