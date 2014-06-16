@@ -65,6 +65,9 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  # languages
+  go::version { '1.1.1': }
+
   # node versions
   include nodejs::v0_6
   include nodejs::v0_8
@@ -75,6 +78,7 @@ node default {
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
+  ruby::version { '2.1.2': }
 
   # common, useful packages
   package {

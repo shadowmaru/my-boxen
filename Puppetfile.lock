@@ -49,14 +49,14 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-go
+  specs:
+    go (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
     heroku (2.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-hipchat
-  specs:
-    hipchat (1.0.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -104,11 +104,6 @@ GITHUBTARBALL
     nodejs (3.2.9)
 
 GITHUBTARBALL
-  remote: boxen/puppet-onepassword
-  specs:
-    onepassword (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -144,11 +139,6 @@ GITHUBTARBALL
     screen (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
-  specs:
-    sublime_text_2 (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -157,11 +147,6 @@ GITHUBTARBALL
   remote: boxen/puppet-sysctl
   specs:
     sysctl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-things
-  specs:
-    things (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -204,8 +189,8 @@ DEPENDENCIES
   gcc (= 2.0.1)
   ghostscript (= 1.0.0)
   git (= 1.2.5)
+  go (= 1.1.0)
   heroku (= 2.0.0)
-  hipchat (= 1.0.8)
   homebrew (= 1.6.1)
   hub (= 1.0.3)
   imagemagick (= 1.2.1)
@@ -216,7 +201,6 @@ DEPENDENCIES
   mysql (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
-  onepassword (= 1.1.0)
   openssl (= 1.0.0)
   phantomjs (= 2.0.2)
   postgresql (= 2.0.1)
@@ -225,10 +209,8 @@ DEPENDENCIES
   ruby (= 7.2.4)
   screen (= 1.0.0)
   stdlib (= 4.1.0)
-  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
-  things (= 1.0.1)
   vagrant (= 3.0.6)
   virtualbox (= 1.0.11)
   wkhtmltopdf (= 1.0.0)
