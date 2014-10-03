@@ -67,6 +67,7 @@ node default {
 
   # languages
   go::version { '1.1.1': }
+  include elixir
 
   # node versions
   include nodejs::v0_6
