@@ -38,7 +38,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "alfred",      "1.1.5"
-github "chrome",      "1.1.1"
+github "chrome",      "1.2.0"
 github "dropbox",     "1.1.1"
 github "elixir",      "0.0.1"
 github "firefox",     "1.1.3"
