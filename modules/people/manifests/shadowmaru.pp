@@ -33,6 +33,7 @@ class people::shadowmaru {
   nodejs::module { 'bower': node_version => 'v0.10.13' }
   nodejs::module { 'grunt-cli': node_version => 'v0.10.13' }
   nodejs::module { 'karma-cli': node_version => 'v0.10.13' }
+  nodejs::module { 'protractor': node_version => 'v0.10.13' }
   nodejs::module { 'jshint': node_version => 'v0.10.13' }
   nodejs::module { 'csslint': node_version => 'v0.10.13' }
 }
