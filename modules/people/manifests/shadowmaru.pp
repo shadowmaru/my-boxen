@@ -1,8 +1,9 @@
 class people::shadowmaru {
-	include alfred
-	include chrome
-	include firefox
-	include iterm2::stable
+  include alfred
+  include chrome
+  include chrome::canary
+  include firefox
+  include iterm2::stable
   include projects::audax
   include projects::topster_admin
   include projects::topster_api
