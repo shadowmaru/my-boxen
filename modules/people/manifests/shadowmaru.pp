@@ -8,6 +8,7 @@ class people::shadowmaru {
   include projects::topster_admin
   include projects::topster_api
   include projects::topster_auth
+  include projects::topster_id
 
   $home         = "/Users/shadow"
   $my           = "${home}/my"
