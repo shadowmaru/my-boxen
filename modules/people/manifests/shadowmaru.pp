@@ -5,6 +5,7 @@ class people::shadowmaru {
   include firefox
   include iterm2::stable
   include projects::audax
+  include projects::thirtyminutes
   include projects::topster_admin
   include projects::topster_api
   include projects::topster_auth
