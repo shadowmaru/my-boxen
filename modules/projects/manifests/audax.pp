@@ -4,7 +4,7 @@ class projects::audax {
   boxen::project { 'audax':
   	postgresql    => true,
     nginx         => true,
-    ruby          => '1.9.3',
+    ruby          => '2.1.2',
     source        => 'shadowmaru/audax'
   }
 }
