@@ -68,7 +68,7 @@ github "iterm2",      "1.2.0"
 github "libtool",     "1.0.0"
 github "memcached",   "2.0.0"
 github "mysql",       "1.2.0"
-github "postgresql",  "3.0.0"
+github "postgresql",  "3.0.1"
 github "redis",       "3.1.0"
 github "screen",      "1.0.0"
 github "sysctl",      "1.0.1" # postgresql dependency
