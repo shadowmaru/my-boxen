@@ -28,7 +28,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.7.0"
+github "boxen",      "3.9.0"
 github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
@@ -48,7 +48,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.4"
+github "ruby",        "8.2.0"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
