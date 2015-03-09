@@ -7,6 +7,7 @@ class people::shadowmaru {
   include projects::audax
   include projects::thirtyminutes
   include projects::ciclobr
+  include projects::edifortini
   include projects::topster_admin
   include projects::topster_api
   include projects::topster_auth

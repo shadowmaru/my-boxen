@@ -141,7 +141,11 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
+<<<<<<< HEAD
     ruby (8.2.1)
+=======
+    ruby (8.2.0)
+>>>>>>> Upgrades Ruby; adds edifortini project
 
 GITHUBTARBALL
   remote: boxen/puppet-screen
