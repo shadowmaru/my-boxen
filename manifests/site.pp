@@ -70,9 +70,8 @@ node default {
   include elixir
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  class { 'nodejs::global': version => 'v0.10.31' }
+  nodejs::version { 'v0.10.13': }
 
   # default ruby versions
   ruby::version { '1.9.3': }

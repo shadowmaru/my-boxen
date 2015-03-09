@@ -10,6 +10,7 @@ class people::shadowmaru {
   include projects::topster_admin
   include projects::topster_api
   include projects::topster_auth
+  include projects::topster_console
   include projects::topster_id
 
   $home         = "/Users/shadow"
@@ -33,11 +34,10 @@ class people::shadowmaru {
   }
 
   # NodeJS
-  class { 'nodejs::global': version => 'v0.10.13' }
-  nodejs::module { 'bower': node_version => 'v0.10.13' }
-  nodejs::module { 'grunt-cli': node_version => 'v0.10.13' }
-  nodejs::module { 'karma-cli': node_version => 'v0.10.13' }
-  nodejs::module { 'protractor': node_version => 'v0.10.13' }
-  nodejs::module { 'jshint': node_version => 'v0.10.13' }
-  nodejs::module { 'csslint': node_version => 'v0.10.13' }
+  nodejs::module { 'bower': node_version => 'v0.10.31' }
+  nodejs::module { 'grunt-cli': node_version => 'v0.10.31' }
+  nodejs::module { 'karma-cli': node_version => 'v0.10.31' }
+  nodejs::module { 'protractor': node_version => 'v0.10.31' }
+  nodejs::module { 'jshint': node_version => 'v0.10.31' }
+  nodejs::module { 'csslint': node_version => 'v0.10.31' }
 }
