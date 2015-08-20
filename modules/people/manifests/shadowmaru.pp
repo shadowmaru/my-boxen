@@ -8,11 +8,7 @@ class people::shadowmaru {
   include projects::thirtyminutes
   include projects::ciclobr
   include projects::edifortini
-  include projects::topster_admin
-  include projects::topster_api
-  include projects::topster_auth
-  include projects::topster_console
-  include projects::topster_id
+  include projects::smartsystem
 
   $home         = "/Users/shadow"
   $my           = "${home}/my"

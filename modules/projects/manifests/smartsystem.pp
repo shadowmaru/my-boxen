@@ -1,5 +1,5 @@
 class projects::smartsystem {
-  include phantomjs::1_9_7
+  include phantomjs
   include ghostscript
   include memcached
 
